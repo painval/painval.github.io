@@ -1,0 +1,176 @@
+#bg-img {
+  background: url('../images/background_space5.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* .main {
+  opacity: 0;
+  transition: opacity 3s;
+} */
+
+* {
+    box-sizing: border-box;
+  }
+  
+/* body {
+  color: rgba(255, 255, 255, 0.863);
+  margin: 0 10% 0 10%;
+  text-align: left;
+  font-family: "Merriweather", serif;
+  font-size: 150%;
+ } */
+
+.top {
+  display: flex;
+  padding-top: 15vh;
+  /* position: relative; */
+  /* overflow: auto; */
+}
+
+.profile {
+  /* display: block; */
+  margin: 0 auto 5em auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 400px;
+}
+
+.picture {
+  width: 100%;
+  /* float: top; */
+}
+
+.name {
+  margin: 0;
+  /* color: #02DEF2; */
+  /* color: #33DAB6; */
+  /* font-size: 4vw; */
+  font-size: 250%;
+  text-align: center;
+  /* background: -webkit-linear-gradient(#02DEF2, #0093DB); */
+  background: -webkit-linear-gradient(#33DAB6, #E5E5E5); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+.val {
+  /* color: #E5E5E5; */
+  /* color: #0093DB;
+  background: -webkit-linear-gradient(#15f6e4, #00dbdb); */
+  background: -webkit-linear-gradient(#E5E5E5, #33DAB6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  margin: auto 20% auto 20%;
+}
+
+.flex-item-left {
+  /* background-color: #f1f1f1; */
+  /* padding: 10px; */
+  /* width: 100%; */
+  flex: 50%;
+  /* margin: auto auto auto 20% ; */
+  /* margin-left: 20%; */
+}
+
+.flex-container img:hover {
+  border: 2px solid #777;
+}
+  
+.flex-item-right {
+  /* background-color: dodgerblue; */
+  /* padding: 10px; */
+  flex: 50%;
+  /* margin-right: 20%; */
+  /* margin: auto 20% auto auto; */
+}
+
+/* .flex-item-right:hover {
+  border: 2px solider #777
+} */
+  
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .flex-container {
+    margin: auto;
+  }
+}
+
+.dropbtn {
+  background-image: url("./../images/duck_pin.jpg");
+  background-size: cover;
+  /* background-color: #4CAF50; */
+  /* color: white; */
+  /* padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; */
+  width: 400px;
+  height: 400px;
+  font-size: 2rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn:hover {
+  border: 2px solid #777;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+  
+}
+
+.bot {
+  height: 500px;
+}
