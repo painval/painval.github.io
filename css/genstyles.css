@@ -1,0 +1,5 @@
+#bg-img {
+  background: url('../images/background_space5.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
