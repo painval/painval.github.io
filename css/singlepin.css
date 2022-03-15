@@ -17,9 +17,11 @@
 } 
 
 #gallerywrapper #gallery div {
-  width:640px; height:900px; 
+  width:450px; height:600px; 
   padding-top:10px; 
   position:relative;
+  /* width: 25%;
+  height: 50%; */
 } 
 
 #gallerywrapper #gallery div img {
@@ -27,6 +29,8 @@
   display:block; 
   margin:0 auto; 
   border:0;
+  /* height: 100%;
+  width: 100%; */
 } 
 
 #gallerywrapper #gallery div h3 {
