@@ -11,7 +11,7 @@
 
 #gallerywrapper #gallery {
   position:absolute;
-  left:50%;
+  left:0;
   top:50%;
   height:450px;
   width:640px;
