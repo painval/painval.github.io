@@ -129,6 +129,29 @@ div#gallery {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  #gallery img {
+    /* width: 100%; */
+    margin: 0 0;
+    /* padding: 6px 0; */
+    }
+  #top {
+      height: 12em;
+  }
+  #title1::after {
+      content: "\a";
+      white-space: pre;
+  }
+
+  /* #icon-section {
+      width: 0;
+  }
+  
+  .icon {
+      width: 100%;
+  } */
+}
+
 /* .main {
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
