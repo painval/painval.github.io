@@ -167,6 +167,99 @@
   
 }
 
+.contact-me {
+  margin: 100px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+/* .python-description {
+    clear: left;
+}
+
+.game-description {
+    clear: right;
+} */
+
+.btn {
+  background: #11999e;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #47f7fd);
+  background-image: -moz-linear-gradient(top, #11cdd4, #47f7fd);
+  background-image: -ms-linear-gradient(top, #11cdd4, #47f7fd);
+  background-image: -o-linear-gradient(top, #11cdd4, #47f7fd);
+  background-image: linear-gradient(to bottom, #11cdd4, #47f7fd);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  box-shadow: 1px 0px 20px 0px #000000;
+  -webkit-box-shadow: 1px 0px 20px 0px #000000;
+  -moz-box-shadow: 1px 0px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #11999e 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #2bc4ad 1px;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.newsection {
+  color: #6be07f;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 150%;
+}
+
+.newsection h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #6be0e0;
+  padding-bottom: 10px;
+}
+
+.newsection h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #71dbc1;
+} 
+
+.newsection p {
+  line-height: 2;
+} 
+
+.newsection a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.newsection a:hover {
+  color: #eaf6f6;
+}
+
 #bot {
   height: 200px;
 }
