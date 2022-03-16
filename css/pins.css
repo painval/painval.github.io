@@ -196,3 +196,8 @@ div.desc {
     display: table;
     clear: both;
 }
+
+#bot {
+    height: 100px;
+  }
+}
