@@ -1,2 +1,2 @@
 # painval.github.io
-Webpage
+Webpage for displaying my collection of pins and more!
