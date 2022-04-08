@@ -90,12 +90,13 @@
 }
 
 #icon-section {
-  width: 100px;
-  margin-top: 2em;
-  float: right;
-  animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+    width: 100px;
+    margin-top: 2em;
+    float: right;
+
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
   @keyframes fadeInAnimation {
     0% {
@@ -133,7 +134,9 @@ div#gallery {
 @media only screen and (max-width: 1400px) {
   #gallery .previous{ 
     margin-left:33%;
+
   } 
+  
   #gallery .next{ 
     margin-right:33%;
   }
@@ -142,7 +145,9 @@ div#gallery {
 @media only screen and (max-width: 900px) {
   #gallery .previous{ 
     margin-left:25%;
+
   } 
+  
   #gallery .next{ 
     margin-right:25%;
   }
@@ -150,9 +155,7 @@ div#gallery {
 
 @media only screen and (max-width: 600px) {
   #gallery img {
-    /* width: 100%; */
     margin: 0 0;
-    /* padding: 6px 0; */
     }
   #top {
       height: 12em;
@@ -161,9 +164,12 @@ div#gallery {
       content: "\a";
       white-space: pre;
   }
+
   #gallery .previous{ 
     margin-left:10%;
+
   } 
+  
   #gallery .next{ 
     margin-right:10%;
   }
@@ -178,7 +184,6 @@ div#gallery {
   background: -webkit-radial-gradient(#632be6a4, #91f1ecaf);
   -webkit-text-fill-color: rgb(139, 238, 255);
 }
-
 
 #bot {
   padding: 10px;

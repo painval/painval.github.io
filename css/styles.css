@@ -19,8 +19,8 @@
 }
 
 * {
-  box-sizing: border-box;
-}
+    box-sizing: border-box;
+  }
 
 .top {
   display: flex;
@@ -70,7 +70,7 @@
 .flex-item-right {
   flex: 50%;
 }
-
+ 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 800px) {
   .flex-item-right, .flex-item-left {
@@ -115,9 +115,7 @@
   border: 2px solid #34b69a;
 }
 
-.dropdown-content a:hover {
-  background-color: #34b69a
-}
+.dropdown-content a:hover {background-color: #34b69a}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -125,6 +123,7 @@
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+  
 }
 
 .contact-me {
